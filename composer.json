@@ -1,39 +1,42 @@
 {
-  "name": "jeffersonsimaogoncalves/cakephp-ldap",
-  "description": "LDAP plugin for CakePHP 3.x",
-  "type": "cakephp-plugin",
-  "keywords": [
-    "cakephp",
-    "authenticate",
-    "ldap"
-  ],
-  "homepage": "http://github.com/jeffersonsimaogoncalves/cakephp-ldap",
-  "authors": [
-    {
-      "name": "darensipes",
-      "role": "Author",
-      "homepage": "https://github.com/darensipes"
+    "name": "jeffersonsimaogoncalves/cakephp-ldap",
+    "description": "LDAP plugin for CakePHP 3.x",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "authenticate",
+        "ldap"
+    ],
+    "homepage": "http://github.com/jeffersonsimaogoncalves/cakephp-ldap",
+    "authors": [
+        {
+            "name": "darensipes",
+            "role": "Author",
+            "homepage": "https://github.com/darensipes"
+        },
+        {
+            "name": "Jefferson Simão Gonçalves",
+            "homepage": "https://github.com/jeffersonsimaogoncalves",
+            "role": "Author"
+        }
+    ],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/jeffersonsimaogoncalves/cakephp-ldap",
+        "issues": "https://github.com/jeffersonsimaogoncalves/cakephp-ldap/issues"
     },
-    {
-      "name": "Jefferson Simão Gonçalves",
-      "homepage": "https://github.com/jeffersonsimaogoncalves",
-      "role": "Author"
+    "require": {
+        "php": ">=7.0",
+        "cakephp/cakephp": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ldap\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
     }
-  ],
-  "license": "MIT",
-  "support": {
-    "source": "https://github.com/jeffersonsimaogoncalves/cakephp-ldap",
-    "issues": "https://github.com/jeffersonsimaogoncalves/cakephp-ldap/issues"
-  },
-  "require": {
-    "php": ">=7.0",
-    "cakephp/cakephp": "^3.6"
-  },
-  "autoload": {
-    "psr-4": {
-      "Ldap\\": "src"
-    }
-  },
-  "minimum-stability": "stable",
-  "prefer-stable": true
 }
